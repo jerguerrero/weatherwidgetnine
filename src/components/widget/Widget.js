@@ -112,7 +112,7 @@ const Widget = ({title, unit, wind}) => {
             .then(result => {
                     if(result.cod === 200){
                         setWeather(result);
-                        setWeatherIcon('http://openweathermap.org/img/wn/' + result.weather[0].icon + '@2x.png');
+                        setWeatherIcon('https://openweathermap.org/img/wn/' + result.weather[0].icon + '@2x.png');
                     }
                     else{
                         alert(result.message);
