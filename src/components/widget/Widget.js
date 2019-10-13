@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
         fontWeight: '700',
         fontSize: '16px',
         overflow: 'hidden',
-        whiteSpace: 'no-wrap'
+        whiteSpace: 'nowrap'
     },
     widgetCardContentContainer: {
         height: '70%'
